@@ -1,6 +1,13 @@
-export default function About() {
+import About from "@/components/About";
+import MaxWithWrapper from "@/components/MaxWidthWrapper";
+
+export default function AboutPage() {
   return (
-    <div>Welcome to the about page</div>
-  )
+    <main className="h-screen overflow-y-auto">
+      <MaxWithWrapper>
+      <About />
+      </MaxWithWrapper>
+    </main>
+     )
 }
 

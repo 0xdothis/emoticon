@@ -1,6 +1,14 @@
-export default function Mint() {
+import MaxWithWrapper from "@/components/MaxWidthWrapper";
+import Mint from "@/components/Mint";
+
+export default function MintPage() {
   return (
-    <div>Welcome to Mint page</div>
+    <div className="h-screen overflow-y-auto">
+      <MaxWithWrapper>
+      <Mint />
+      </MaxWithWrapper>
+
+    </div>
   )
 }
 
