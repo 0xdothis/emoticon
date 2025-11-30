@@ -13,7 +13,7 @@ export default function ConnectWallet() {
         <div className="flex gap-8 flex-col md:flex-row">
           <p className="bg-slate-300 text-slate-500 px-8 py-[.75rem] rounded-lg w-fit"> {account ? displayWallet(account) : ""}
 </p>
-    <Link onClick={() => alert("minting")} href="/mint" className="bg-[hsl(256deg,27%,59%)] text-[hsl(0,0%,97%)] md:px-[71px] w-fit px-8 py-[.75rem] rounded-lg">Mint</Link>
+    <Link href="/mint" className="bg-[hsl(256deg,27%,59%)] text-[hsl(0,0%,97%)] md:px-[71px] w-fit px-8 py-[.75rem] rounded-lg">Mint</Link>
 
     </div >
 : <button onClick={signer} className="bg-[hsl(256deg,27%,59%)] text-[hsl(0,0%,97%)] px-[71px] py-[.75rem] rounded-lg">

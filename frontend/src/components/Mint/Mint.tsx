@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import heroImg from "../../../public/hero-img.gif";
 import ConnectWallet from "../ConnectWallet";

@@ -12,14 +12,14 @@ const [account, setAccount] = React.useState(null);
   const wallets = await provider.send("eth_requestAccounts", [])
 
    setAccount(wallets[0])
-  },[account]); 
+  },[account,isConnected]); 
 
   React.useEffect(() => {
     //if(isConnected) return;
     signer();
 
     setIsConnected(false)
-  },[isConnected])
+  },[])
 
   
   return {signer, account}
