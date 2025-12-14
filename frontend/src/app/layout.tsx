@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Barriecito, DynaPuff } from "next/font/google";
 import "./globals.css";

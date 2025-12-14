@@ -8,7 +8,7 @@ function Banner() {
         <p className="font-dyna leading-8">
 
           Own a piece of emotion.
-          <br/>Be part of the story that turns human feeling into digital legacy.</p>
+          <br />Be part of the story that turns human feeling into digital legacy.</p>
       </div>
       <Link href="/mint" className="font-dyna text-center text-[1.25rem] mt-8 md:mt-0 bg-[hsl(256deg,27%,59%)] md:self-center text-white px-8 py-4 rounded-md">Mint Your Emoticon</Link>
     </div>
